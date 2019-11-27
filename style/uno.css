@@ -1,0 +1,30 @@
+
+/*STAR HEADER*/
+.head{
+    background-color: white;
+
+}
+
+
+@media (min-width: 768px) {
+    .head nav {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem 0;
+    }
+    .head ul {
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+  }
+    .sideh a {
+        display: block;
+        padding: 2em ;
+        text-decoration: none;
+        color: var(--oscuro)
+    }
+
+    .despegable {
+
+    }
+}
